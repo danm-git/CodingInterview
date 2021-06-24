@@ -18,11 +18,11 @@ function reverse(str) {
     }
 
     //Option 2
-    console.log('Better option: ' + str.split('').reverse().join(''));
+    let option2 = str.split('').reverse().join('');
+    console.log('option2: ' + option2);
 
     //Option 3
     let option3 = str.split('').reduce((rev, char) =>  char + rev, '');
-
     console.log('option3 = ' + option3);
 
     return reverseString;
